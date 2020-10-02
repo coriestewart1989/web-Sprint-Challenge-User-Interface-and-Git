@@ -56,6 +56,56 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* .logo{
+    display: flex;
+    flex-direction: row;
+    border:1px solid blueviolet;
+    /* justify-content: space-evenly;
+    border:1px solid blue; */
+
+/* .logo a{
+    text-decoration: none;
+} */ 
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    margin-left: 20%;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 90%;
+}
+header .logo{
+    margin-left: 0% 20% 0% 0%;
+}
+.navbar a{
+    flex-direction: row;
+    margin-top: 50%;
+    margin-right: .5%;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+
+}
+
+.jumbo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.jumbo2{
+    display: flex;
+    justify-content: center;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -112,6 +162,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +195,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    border:1px solid green;
+
+}
+
+.logo nav{
+    justify-content: right;
+    border:1px solid red;
+}
+
+.middle1{
+    /* display: inline; */
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    border:1px solid red;
+    position: center;
+    padding: 3%;
+    height: auto;
+    width: 100%;
+    margin: .5%;
+}
+
+.middle2{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    border:1px solid red;
+    position: center;
+    padding: 3%;
+    height: auto;
+    width: 100%;
+    margin: .5%;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
 }
